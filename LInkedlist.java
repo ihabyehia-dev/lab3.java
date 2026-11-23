@@ -51,9 +51,13 @@ public class LInkedlist {
 			return;
 		}
 
-		while (current.data != b) {
+		while (current != null && current.data != b) {
 			prev = current;
 			current = current.next;
+		}
+		if (current == null) {
+			System.out.println("Value " + b + " was not found.");
+			return;
 		}
 		n.next = current;
 		prev.next = n;
