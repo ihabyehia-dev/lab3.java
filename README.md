@@ -13,4 +13,4 @@ An early implementation of a singly linked list using custom `Node` objects and 
 `Node.java`, `LInkedlist.java`, and `main.java` use package `person`. Import them into that package in Eclipse and run `main.java`.
 
 ## Practice
-Test an empty list, a single node, and insertion before an existing or missing value. The insertion-before method is a learning exercise; check its missing-key behavior.
+Test an empty list, a single node, and insertion before an existing or missing value. The insertion-before method now checks for a missing key, instead of dereferencing a null node.
