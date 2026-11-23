@@ -1,6 +1,7 @@
 
 package person;
 
+/** Singly linked list practice using custom Node objects. */
 public class LInkedlist {
 	Node head;
 	Node n = new Node();
